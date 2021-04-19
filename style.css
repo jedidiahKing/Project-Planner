@@ -93,11 +93,12 @@
   
   #active-projects {
     border: 1px solid black;
-    border-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
   }
   
   #active-projects > header {
-    background: blue;
+    background: rgb(255, 0, 0);
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -112,7 +113,8 @@
   
   #finished-projects {
     border: 1px solid black;
-    border-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
   }
   
   #finished-projects > header {
